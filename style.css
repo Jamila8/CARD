@@ -1,0 +1,61 @@
+body {
+    background: rgb(237, 237, 34);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: left;
+    
+
+}
+
+.card-container {
+    background: white;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.8);
+    width: 350px;
+    height: 450px;
+    margin: 50px;
+    border: 1px solid black;
+    padding: 20px;
+    
+}
+.button {
+    text-align: left;
+    background: yellow;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    
+    
+}
+.blog {
+    width: 350px;
+    height: 170px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+p, h2 {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.images {
+    display: flex;
+}
+.profil {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 100%;
+
+}
+.card-container:hover {
+    transform: translate(-4px,-4px);
+}
